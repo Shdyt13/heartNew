@@ -4,9 +4,9 @@ function checkName() {
 
     if (inputName === correctName) {
         // Jika nama benar, arahkan ke halaman love.html
-        window.location.href = '../love.html';
+        window.location.href = './love.html';
     } else {
         // Jika nama salah, arahkan ke halaman wrong.html
-        window.location.href = '../wrong.html';
+        window.location.href = './wrong.html';
     }
 }
